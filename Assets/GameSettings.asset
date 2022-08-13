@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ac19dcf2394104287f0481986869b4, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  PlayerMoveSpeed: 5
+  PlayerMaxHealth: 300
+  PlayerDamageReductionPerArmor: 0.1
+  PlayerAttackDelay: 0.4
+  PlayerAttackDamage: 20
+  PlayerAttackDamageBonusPerSword: 5
+  PlayerAttackKnockbackStrength: 15
+  PlayerMiningStrength: 2
+  PlayerMiningStrengthBonusPerPickaxe: 0.5
+  PlayerMiningAttackingRange: 1.5
+  InventoryCapacity: 500
+  InventoryBlockCollectTime: 0.8
+  InventoryCollectedJumpHeight: 4
+  InventoryX: 3
+  InventoryZ: 3
+  InventoryMargin: 0.25
+  TerritoryBlockDelay: 0.05
+  TerritoryBlockFlyTime: 0.5
+  TerritoryBuiltPerBlock: 4
+  ZombieNoSpawnTime: 420
+  ZombieMoveSpeed: 1
+  ZombieVisionRange: 10
+  ZombieAttackDelay: 2.2
+  ZombieMaxHealth: 100
+  ZombieAttackRange: 2
+  ZombieAttackDamage: 20
+  ZombieMaxAmount: 20
+  ZombieWaveDelays:
+  - 40
+  - 35
+  - 30
+  ZombieWaveSize: 010000000100000001000000
+  BuildingBlockDelay: 0.05
+  BuildingBlockFlyTime: 0.5
+  MachineMineTime: 5
+  BlocksMinedPerWood: 15
+  AllySpawnDelay: 15
+  AllyMaxAmount: 5
+  AllySpawnHealthTreshold: 0.5
+  AllyMoveSpeed: 4
+  AllyAttackDelay: 1.6
+  AllyMaxHealth: 150
+  AllyAttackRange: 2
+  AllyAttackDamage: 15
+  BlockFadeOutTime: 1
+  BlockUnlockBounceTime: 0.4
+  BlockUnlockBounceScale: 1.2
+  BlockRespawnTime: 5
+  DirtHealth: 1
+  GrassHealth: 1.5
+  WoodHealth: 2
+  TreeHealth: 15
+  StoneHealth: 3.2
+  IronOreHealth: 4
+  PickaxesHealth:
+  - 0
+  - 50
+  - 100
+  - 150
+  - 200
+  - 250
+  SwordsHealth:
+  - 0
+  - 30
+  - 60
+  - 90
+  - 120
+  - 150
+  ArmorsHealth:
+  - 0
+  - 15
+  - 30
+  - 45
+  - 60
+  - 75
